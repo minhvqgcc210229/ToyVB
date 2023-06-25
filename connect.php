@@ -7,10 +7,10 @@
 
         public function __construct()
         {
-            $this->server ="cis9cbtgerlk68wl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-            $this->user ="sxu12jc3l7caqwra";
-            $this->password ="lovmmu5w7a3cwhky";
-            $this->dbname = "h92ign4lreowp7j8";
+            $this->server ="i0rgccmrx3at3wv3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+            $this->user ="ty8x5p83mnsj0uue";
+            $this->password ="h0cc5il9lcxkmqxp";
+            $this->dbname = "f2b7a0waxsi8qmfg";
         }
         //option 1: use mySQLi
         function connectToMySQL(): mysqli{
@@ -35,5 +35,5 @@
         }
     }
     // //test connect
-    $conn = mysqli_connect('cis9cbtgerlk68wl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com','sxu12jc3l7caqwra','lovmmu5w7a3cwhky','h92ign4lreowp7j8') or die("can not connect database" .mysqli_connect_error());
+    $conn = mysqli_connect('i0rgccmrx3at3wv3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com','ty8x5p83mnsj0uue','h0cc5il9lcxkmqxp','f2b7a0waxsi8qmfg') or die("can not connect database" .mysqli_connect_error());
 ?>
